@@ -158,7 +158,7 @@ void loading::update()
 	_loadingBar->update();
 
 	_count++;
-
+	//커밋테스트중
 	if (_count % 10 == 0)
 	{
 		_index++;
