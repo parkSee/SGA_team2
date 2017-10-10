@@ -73,29 +73,11 @@
     <Filter Include="2DGameFramework\Manager\timeManager">
       <UniqueIdentifier>{797cf16c-79fa-45be-9db5-f0dacbc2930e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="playGround\mainScene">
-      <UniqueIdentifier>{8d05367c-59db-478d-9183-c70dc74a81fa}</UniqueIdentifier>
-    </Filter>
     <Filter Include="2DGameFramework\Manager\cameraManager">
       <UniqueIdentifier>{b65cca08-fe4b-4909-aa51-05f30841ec4a}</UniqueIdentifier>
     </Filter>
     <Filter Include="playGround\map">
       <UniqueIdentifier>{ed4e2eb9-8242-45f0-abe9-814012d1f074}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="playGround\townScene">
-      <UniqueIdentifier>{d08a6664-a0f1-48f0-b96b-2c49bc22aeb5}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="playGround\townScene\world">
-      <UniqueIdentifier>{b60f9528-63c1-437a-8bea-fb4f11e531fa}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="playGround\dungeonScene">
-      <UniqueIdentifier>{5e1a947f-b9c2-4d39-a176-76723f4b5514}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="playGround\dungeonScene\world">
-      <UniqueIdentifier>{a857b288-e341-470f-842b-ab2a28357aca}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="playGround\loadingScene">
-      <UniqueIdentifier>{49147934-5c98-4219-ad8f-b206aaad2ad9}</UniqueIdentifier>
     </Filter>
     <Filter Include="playGround\UI">
       <UniqueIdentifier>{abf1fb29-b024-40c4-9cc2-dcea7399001c}</UniqueIdentifier>
@@ -108,6 +90,27 @@
     </Filter>
     <Filter Include="2DGameFramework\loading">
       <UniqueIdentifier>{ebfe18c6-d713-4a17-adc8-5d946310158a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\scene">
+      <UniqueIdentifier>{8fbd6ffb-1b85-44ca-bec5-028355800c09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\scene\mainScene">
+      <UniqueIdentifier>{8d05367c-59db-478d-9183-c70dc74a81fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\scene\dungeonScene">
+      <UniqueIdentifier>{5e1a947f-b9c2-4d39-a176-76723f4b5514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\scene\dungeonScene\world">
+      <UniqueIdentifier>{a857b288-e341-470f-842b-ab2a28357aca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\scene\loadingScene">
+      <UniqueIdentifier>{49147934-5c98-4219-ad8f-b206aaad2ad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\scene\townScene">
+      <UniqueIdentifier>{d08a6664-a0f1-48f0-b96b-2c49bc22aeb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\scene\townScene\world">
+      <UniqueIdentifier>{b60f9528-63c1-437a-8bea-fb4f11e531fa}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -199,16 +202,16 @@
       <Filter>2DGameFramework\Manager\timeManager</Filter>
     </ClInclude>
     <ClInclude Include="townWorld.h">
-      <Filter>playGround\townScene\world</Filter>
+      <Filter>playGround\scene\townScene\world</Filter>
     </ClInclude>
     <ClInclude Include="dungeonWorld.h">
-      <Filter>playGround\dungeonScene\world</Filter>
+      <Filter>playGround\scene\dungeonScene\world</Filter>
     </ClInclude>
     <ClInclude Include="dungeonScene.h">
-      <Filter>playGround\dungeonScene</Filter>
+      <Filter>playGround\scene\dungeonScene</Filter>
     </ClInclude>
     <ClInclude Include="townScene.h">
-      <Filter>playGround\townScene</Filter>
+      <Filter>playGround\scene\townScene</Filter>
     </ClInclude>
     <ClInclude Include="cameraManager.h">
       <Filter>2DGameFramework\Manager\cameraManager</Filter>
@@ -226,7 +229,7 @@
       <Filter>2DGameFramework\loading</Filter>
     </ClInclude>
     <ClInclude Include="loadingScene.h">
-      <Filter>playGround\loadingScene</Filter>
+      <Filter>playGround\scene\loadingScene</Filter>
     </ClInclude>
     <ClInclude Include="worldNode.h">
       <Filter>playGround</Filter>
@@ -306,16 +309,16 @@
       <Filter>2DGameFramework\Manager\timeManager</Filter>
     </ClCompile>
     <ClCompile Include="townWorld.cpp">
-      <Filter>playGround\townScene\world</Filter>
+      <Filter>playGround\scene\townScene\world</Filter>
     </ClCompile>
     <ClCompile Include="dungeonWorld.cpp">
-      <Filter>playGround\dungeonScene\world</Filter>
+      <Filter>playGround\scene\dungeonScene\world</Filter>
     </ClCompile>
     <ClCompile Include="dungeonScene.cpp">
-      <Filter>playGround\dungeonScene</Filter>
+      <Filter>playGround\scene\dungeonScene</Filter>
     </ClCompile>
     <ClCompile Include="townScene.cpp">
-      <Filter>playGround\townScene</Filter>
+      <Filter>playGround\scene\townScene</Filter>
     </ClCompile>
     <ClCompile Include="cameraManager.cpp">
       <Filter>2DGameFramework\Manager\cameraManager</Filter>
@@ -333,10 +336,7 @@
       <Filter>2DGameFramework\loading</Filter>
     </ClCompile>
     <ClCompile Include="loadingScene.cpp">
-      <Filter>playGround\loadingScene</Filter>
-    </ClCompile>
-    <ClCompile Include="UI + addCallback.cpp">
-      <Filter>playGround\UI</Filter>
+      <Filter>playGround\scene\loadingScene</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

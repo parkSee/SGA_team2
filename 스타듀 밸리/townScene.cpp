@@ -4,6 +4,11 @@
 
 HRESULT townScene::init()
 {
+
+	UI* uiManager = new UI;
+	uiManager->init("UI");
+	TOWNWORLD->addObject(objectType::INTERFACE, uiManager);
+
 	return S_OK;
 
 }
@@ -17,9 +22,6 @@ void townScene::update()
 {
 	if (!a)
 	{
-		UI* uiManager = new UI;
-		uiManager->init("UI");
-		TOWNWORLD->addObject(objectType::INTERFACE, uiManager);
 		a = true;
 	}
 

@@ -5,6 +5,7 @@ struct tagConverSation
 {
 	image* window;
 	image* who;
+	image* scroll;
 };
 
 class UI : public gameObject

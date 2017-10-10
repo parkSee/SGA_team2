@@ -153,7 +153,6 @@
     <ClCompile Include="townScene.cpp" />
     <ClCompile Include="townWorld.cpp" />
     <ClCompile Include="txtData.cpp" />
-    <ClCompile Include="UI + addCallback.cpp" />
     <ClCompile Include="UI.cpp" />
     <ClCompile Include="utils.cpp" />
     <ClCompile Include="winMain.cpp" />
